@@ -1,0 +1,70 @@
+body {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    height: 700px;
+}
+
+.quiz {
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+}
+
+.quiz__game {
+    /*display: none;*/
+}
+
+.game__content {
+    padding: 50px;
+}
+
+.content__question {
+    font-size: 40px;
+}
+
+.answer {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.game__submit-result {
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+
+.quiz__result {
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.quiz__result h1 {
+    font-size: 50px;
+}
+
+.result__correct-answer {
+    color: green;
+}
+
+.result__wrong-answer {
+    color: red;
+}
+
+.result__play-again {
+    color: white;
+    background-color: rebeccapurple;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
